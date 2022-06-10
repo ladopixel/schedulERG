@@ -25,8 +25,8 @@ wallet_mnemonic = ''
 password = ''
 
 # Convert the description UTF-8 to String
-def toUtf8String(hex):
-    valorUTF8 = '' 
+def to_utf8_string(hex):
+    valor_utf8 = '' 
     aux = ''
     contador = 0
     for i in hex:
@@ -34,10 +34,10 @@ def toUtf8String(hex):
         if contador < 3:
             aux = aux + i
         if contador == 2:
-            valorUTF8 = valorUTF8 + str(chr(int(aux, 16)))
+            valor_utf8 = valor_utf8 + str(chr(int(aux, 16)))
             contador = 0
             aux = ''
-    return valorUTF8
+    return valor_utf8
 
 # add_info() → Mint token ciphed
 def add_info():
@@ -87,7 +87,7 @@ def contact_info():
         data_token = requests.get('https://api.ergoplatform.com/api/v0/assets/' + id_token_deciph + '/issuingBox')
         data_token = data_token.json()
         name_token = str(data_token[0]['assets'][0]['name'])
-        description_token = toUtf8String(data_token[0]['additionalRegisters']['R5'])[2:]
+        description_token = to_utf8_string(data_token[0]['additionalRegisters']['R5'])[2:]
         
         print('')
         print(colorsPython.escribirVerdeOpacidad('This is you description → ') + colorsPython.escribirVerde(description_token))
