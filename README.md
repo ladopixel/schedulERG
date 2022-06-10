@@ -10,7 +10,7 @@
 <hr>
 
 <h2>Quick Start</h2>
-<code>If you are going to work with a computer other than Raspberry Pi, jump directly to Install dependencies</code>
+<code>If you are going to work with a computer other than Raspberry Pi, jump directly to Install schedulERG</code>
 
 <h3>Raspberry Pi</h3>
 <h4>Prepare installation Raspberry Pi</h4>
@@ -28,6 +28,9 @@ We need to explicity call Java 8 otherwise you will receive a "Server VM is only
 sudo update-alternatives --config java
 # Then select Java 8's menu number
 ~~~
+
+<h3>Install schedulERG</h3>
+<ul><li>Requires Java 8 or higher to be installed on system</li></ul>
 
 <h3>Install dependencies</h3>
 
