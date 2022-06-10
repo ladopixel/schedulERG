@@ -10,8 +10,10 @@
 <hr>
 
 <h2>Quick Start</h2>
+<code>If you are going to work with a computer other than Raspberry Pi, jump directly to Install dependencies</code>
 
-<h3>Prepare installation Raspberry Pi</h3>
+<h3>Raspberry Pi</h3>
+<h4>Prepare installation Raspberry Pi</h4>
 
 ~~~
 sudo apt update && sudo apt upgrade -y
