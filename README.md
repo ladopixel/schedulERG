@@ -3,7 +3,7 @@
 <img src="https://camo.githubusercontent.com/ec19f4f188a819aea16eab8fb5d11c3916eda23f447e34ec2e03a57a321d7f38/68747470733a2f2f6572676f706c6174666f726d2e6f72672f696d672f6c6f676f747970655f77686974652e737667" alt="Logotipo ErgoPlatform">
 
 <p>Simple application written in python to interact with the <a href="https://ergoplatform.org">Ergo blockchain</a> from the terminal.
-<br>Undoubtedly, the <a href="https://github.com/mgpai22/ergpy">ergpy repository</a> has been fundamental for the creation of tERGminal.</p>
+<br>Undoubtedly, the <a href="https://github.com/mgpai22/ergpy">ergpy repository</a> has been fundamental for the creation of schedulERG.</p>
 
 <p>From schedulERG you can create and query tokens on the Ergo blockchain by encrypting and decrypting the description with a password.</p>
 
